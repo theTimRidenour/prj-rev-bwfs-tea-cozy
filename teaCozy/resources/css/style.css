@@ -1,0 +1,164 @@
+/* General Styling */
+
+a {
+  text-decoration: underline;
+}
+
+body {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+#bodyWrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.black {
+  background-color: black;
+}
+
+.block {
+  display: inline-block;
+}
+
+/* Header Styling */
+
+#header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  padding: 0px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+#logo {
+  height: 50px;
+}
+
+#logo, #menu {
+  display: inline-flex;
+}
+
+#menu li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+/* Body Styling */
+
+#body {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#featured {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 69px;
+  width: 1000px;
+}
+
+#featured h4 {
+  margin: 0px;
+}
+
+#featured img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+#locations {
+  align-items: center;
+  background-image: url(../images/img-locations-background.jpg);
+  display: inline-flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  margin-top: 69px;
+  padding: 69px 0px;
+  width: 1200px;
+}
+
+#locations h2 {
+  margin: 0px;
+}
+
+#locationBlocks {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#mission {
+  align-items: center;
+  background-image: url(../images/img-mission-background.jpg);
+  display: inline-flex;
+  height: 700px;
+  padding-top: 69px;
+  width: 1200px;
+}
+
+#missionStatement {
+  justify-content: center;
+  width: 1200px;
+}
+
+.featured {
+  flex-direction: row;
+}
+
+.location {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 15px 20px;
+  width: 300px;
+}
+
+/* Footer Styling */
+
+#contact {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  display: flex;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Debugging */
+
+/*
+* {
+  border: 1px solid red;
+}
+*/
